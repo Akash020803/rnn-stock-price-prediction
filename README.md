@@ -98,7 +98,7 @@ X_test = np.reshape(X_test,(X_test.shape[0], X_test.shape[1],1))
 predicted_stock_price_scaled = model.predict(X_test)
 predicted_stock_price = sc.inverse_transform(predicted_stock_price_scaled)
 
-print("Name: Ronick Aakshath P  Register Number: 212222240084")
+print("Name: Akash A  Register Number: 212221230003")
 plt.plot(np.arange(0,1384),inputs, color='red', label = 'Test(Real) Google stock price')
 plt.plot(np.arange(60,1384),predicted_stock_price, color='blue', label = 'Predicted Google stock price')
 plt.title('Google Stock Price Prediction')
